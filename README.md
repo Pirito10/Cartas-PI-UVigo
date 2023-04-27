@@ -249,4 +249,4 @@ Este módulo contiene la función principal, main, que se encarga de realizar to
           -Si seleccionó ‘S’ o ‘s’, se llama a salir()
             -Si hubo respuesta afirmativa, se termina la ejecución del programa
             -Si hubo respuesta negativa, se vuelve a mostrar el menú
-			      -Si se seleccionó una opción incorrecta, se vuelve a mostrar el menú
+          -Si se seleccionó una opción incorrecta, se vuelve a mostrar el menú
