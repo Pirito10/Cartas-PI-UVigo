@@ -4,7 +4,7 @@ Cartas (Message Managing System) project for "[Programación I](https://secretar
 
 # Building The Project
 
-Use the **Makefile** provided to compile the project.
+Use the [**Makefile**](Makefile) provided to compile the project.
 
 # About The Code
 
