@@ -1,6 +1,6 @@
 # About The Project
 
-Cartas (Message Managing System) project for "[Programación I](https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/index.php?centre=305&ensenyament=V05G301V01&assignatura=V05G301V01105&any_academic=2019_20)" subject in Telecommunications Engineering Degree at Universidad de Vigo (2019 - 2020)
+Cartas (Message Management System) project for "[Programación I](https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/index.php?centre=305&ensenyament=V05G301V01&assignatura=V05G301V01105&any_academic=2019_20)" subject in Telecommunications Engineering Degree at Universidad de Vigo (2019 - 2020)
 
 # Building The Project
 
