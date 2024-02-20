@@ -8,7 +8,6 @@
 #include "inout.h" //Necesario para usar las funciones incluidas en inout.c y los structs definidos en inout.h
 
 // Funcion que lee la informacion del fichero "abonados.txt"
-
 void fichero_Abonados(struct unAbonado **listaAbonados)
 {
   // Se crea un fichero
@@ -54,7 +53,6 @@ void fichero_Abonados(struct unAbonado **listaAbonados)
 }
 
 // Funcion que lee la informacion del fichero "mensajes.txt"
-
 void fichero_Mensajes(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
 {
   // Si la lista de abonados esta vacia, la lista de mensajes tambien debe estarlo, por lo que se sale de la funcion y no se lee el fichero
@@ -106,7 +104,6 @@ void fichero_Mensajes(struct unAbonado **listaAbonados, struct unMensaje **lista
 }
 
 // Funcion que crea un nuevo abonado
-
 void suscribir(struct unAbonado **lista)
 {
   int mayorID = 0;             // Variable para almacenar el mayor ID ya existente
@@ -176,9 +173,7 @@ void suscribir(struct unAbonado **lista)
 }
 
 // Funcion que crea un nuevo mensaje
-
 void escribir(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
-
 {
   int id, mayorID = 1, idEmisor, idDestino; // Variables para almacenar el ID introducido por el usuario, el mayor ID existente, el ID del emisor y el ID del destinatario
   char elMensaje[101];                      // Variable para almacenar el texto del mensaje
@@ -310,7 +305,6 @@ void escribir(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes
 }
 
 // Funcion que muestra los mensajes disponibles para un abonado
-
 void listar(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
 {
   char cadena[16]; // Variable para almacenar el nombre del abonado indicado por el usuario
@@ -374,7 +368,6 @@ void listar(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
 }
 
 // Funcion que elimina un mensaje
-
 void borrar(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
 {
   int id = 0, mayorID = 1, idDestino, posicion, i, n = 0; // Variables para almacenar el ID introducido por el usuario, el mayor ID existente, el ID del destinatario y las variable de iteracion de los bucles
@@ -498,7 +491,6 @@ void borrar(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
 }
 
 // Funcion que elimina un abonado y todos sus mensajes
-
 void retirar(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
 {
   int id, mayorID = 1, i; // Variables para almacenar el ID introducido por el usuario, el mayor ID existente y la variable de iteracion de los bucles
@@ -622,7 +614,6 @@ void retirar(struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
 }
 
 // Funcion que confirma si el usuario desea salir y guarda toda la informacion obtenida durante la ejecucion del programa en caso de respuesta afirmativa
-
 void salir(int *respuesta, struct unAbonado **listaAbonados, struct unMensaje **listaMensajes)
 {
   // Se informa de la operacion a realizar

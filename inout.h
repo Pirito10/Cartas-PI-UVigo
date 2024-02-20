@@ -4,7 +4,6 @@
 #define INOUT_H
 
 // Estructura para almacenar los datos de un abonado
-
 struct unAbonado
 {
 	int identidad;
@@ -14,7 +13,6 @@ struct unAbonado
 };
 
 // Estructura para almacenar los datos de un mensaje
-
 struct unMensaje
 {
 	int emisor;
@@ -24,7 +22,6 @@ struct unMensaje
 };
 
 // Declaraciones de las funciones incluidas en inout.c
-
 void plano(char caracter, int n);
 void rotulo(char nombre[], char caracter, int n);
 int confirmar(char mensaje[]);

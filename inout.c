@@ -6,9 +6,7 @@
 #include "inout.h"
 
 // Funcion que imprime los bordes superior e inferior de la caratula
-
 void plano(char caracter, int n)
-
 {
   // Imprime n veces el caracter indicado
   for (int i = 0; i < n; i++)
@@ -18,9 +16,7 @@ void plano(char caracter, int n)
 }
 
 // Funcion que imprime la linea central de la caratula
-
 void rotulo(char nombre[], char caracter, int n)
-
 {
   int i, espacios;
 
@@ -48,9 +44,7 @@ void rotulo(char nombre[], char caracter, int n)
 }
 
 // Funcion para seleccionar entre una afirmacion o negacion
-
 int confirmar(char mensaje[])
-
 {
   char respuesta[3];
   int i;
@@ -98,9 +92,7 @@ int confirmar(char mensaje[])
 }
 
 // Funcion que lee una cadena del teclado
-
 void lee_cadena(char *direccion_Cadena, int longitud, char mensaje[])
-
 {
   int correcto = 0, num_Asignaciones; // Variables para comprobar si se hicieron las correctas asignaciones
   char cadena[longitud + 2];          // Cadena leida del teclado, del tamano de la longitud indicada mas dos caracteres (el salto de linea y el fin de cadena)
@@ -137,14 +129,11 @@ void lee_cadena(char *direccion_Cadena, int longitud, char mensaje[])
         else
           printf("Longitud nula\n");
       }
-
   } while (correcto == 0);
 }
 
 // Funcion que lee un entero del teclado
-
 int lee_entero(int valor_Max, char mensaje[])
-
 {
   char cadena[5], salto_Linea; // Cadena leida del teclado (permite leer enteros hasta el 999), y caracter correspondiente con el salto de linea
   int entero, correcto = 0;    // Entero introducido por el usuario, que es retornado por la funcion, y variable de comprobacion del bucle
@@ -187,7 +176,6 @@ int lee_entero(int valor_Max, char mensaje[])
 }
 
 // Funcion que muestra la informacion de un abonado en forma compacta (la identidad y el nombre)
-
 void muestra_abonado(struct unAbonado *elAbonado)
 {
   // Imprime la informacion del abonado con el formato "#IDENTIDAD:NOMBRE", con campos de anchura 3 y 15, respectivamente
@@ -195,7 +183,6 @@ void muestra_abonado(struct unAbonado *elAbonado)
 }
 
 // Funcion que muestra la informacion de un mensaje en forma extensa (emisor, destino y texto)
-
 void muestra_extensa(struct unMensaje *elMensaje)
 {
   // Imprime la informacion del mensaje con el formato "> Emisor: ID_Emisor > Destino: ID_Destino > Texto: mensaje" en tres lineas
@@ -203,7 +190,6 @@ void muestra_extensa(struct unMensaje *elMensaje)
 }
 
 // Funcion que muestra la informacion de un mensaje en forma corta (emisor, destino y texto)
-
 void muestra_corta(struct unMensaje *elMensaje)
 {
   // Imprime la informacion del mensaje con el formato "#ID_Emisor:ID_Destino:Texto", con campos de anchura 3 para las identidades, y hasta 12 caracteres para el texto

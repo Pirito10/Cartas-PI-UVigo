@@ -7,7 +7,6 @@
 #include "operation.h"
 
 // Funcion que muestra el menu y realiza todas las llamadas a las demas funciones del programa
-
 int main()
 {
 	int respuesta;	   // Variable para controlar la finalizacion del programa
