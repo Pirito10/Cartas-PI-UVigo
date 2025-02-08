@@ -1,5 +1,5 @@
 # Cartas
-_Cartas_ is a **Message Management System** developed as part of the course "[Programación I](https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/index.php?centre=305&ensenyament=V05G301V01&assignatura=V05G301V01105&any_academic=2019_20)" in the Telecommunications Engineering Degree at the Universidad de Vigo (2019 - 2020).
+_Cartas_ is a **Message Management System** developed as part of the course "[Programación I](https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=305&ensenyament=V05G301V01&assignatura=V05G301V01105&any_academic=2019_20)" in the Telecommunications Engineering Degree at the Universidad de Vigo (2019 - 2020).
 
 ## About The Project
 This project simulates a management system for messaging, where users can send, receive, and organize messages. The system integrates fundamental programming concepts such as dynamic memory management, file handling, and modular design, which were key learning objectives of the course.
