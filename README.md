@@ -26,5 +26,4 @@ Once compiled, you can run the system with:
 Alternatively, you can download and run the precompiled version from the [releases page](https://github.com/Pirito10/Cartas-PI-UVigo/releases/tag/1.0).
 
 ## About The Code
-The original specification document for this project was lost, so the only way to properly understand the system and how it works is by reading the [`Memoria.pdf`](docs/Memoria.pdf) document and inspecting the code directly.
-Refer to [`Especificaciones.pdf`](docs/Especificaciones.pdf) for an in-depth explanation of the project, how the game works, the multiple ways of running the game, example files to use, and more.
+Refer to [`Memoria.pdf`](docs/Memoria.pdf) for a high-level overview of the project, or inspect the code for a deeper understanding of the system and how it works.
