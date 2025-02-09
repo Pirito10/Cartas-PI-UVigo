@@ -27,3 +27,4 @@ Alternatively, you can download and run the precompiled version from the [releas
 
 ## About The Code
 The original specification document for this project was lost, so the only way to properly understand the system and how it works is by reading the [`Memoria.pdf`](docs/Memoria.pdf) document and inspecting the code directly.
+Refer to [`Especificaciones.pdf`](docs/Especificaciones.pdf) for an in-depth explanation of the project, how the game works, the multiple ways of running the game, example files to use, and more.
