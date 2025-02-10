@@ -12,7 +12,7 @@ The project features:
 
 ## How To Run
 ### Compilation
-Make sure you have the [GCC](https://gcc.gnu.org) and [Makefile](https://www.gnu.org/software/make/) tools installed on your system. Then compile the project with:
+Make sure you have the [GCC](https://gcc.gnu.org) and [Make](https://www.gnu.org/software/make/) tools installed on your system. Then compile the project with:
 ```bash
 make -C src
 ```
